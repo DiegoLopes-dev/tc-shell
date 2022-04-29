@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -dir
+find . -maxdepth -type f | wc -l
