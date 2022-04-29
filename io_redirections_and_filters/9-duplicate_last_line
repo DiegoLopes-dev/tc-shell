@@ -1,5 +1,2 @@
 #!/bin/bash
-awk '
-        /_X/ || /_Y/ { print; next; }
-        { print; print; }
-' iacta
+awk '{for(a=0;a<$1;a++) print $2}' iacta
