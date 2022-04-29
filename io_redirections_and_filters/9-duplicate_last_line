@@ -1,2 +1,5 @@
 #!/bin/bash
-tail -1f iacta
+awk '
+        /_X/ || /_Y/ { print; next; }
+        { print; print; }
+' iacta
