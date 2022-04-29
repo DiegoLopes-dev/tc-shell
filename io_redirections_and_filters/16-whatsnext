@@ -1,2 +1,2 @@
 #!/bin/bash
-grep ^[r] /etc/passwd | head -5
+grep ^[r] /etc/passwd head -5
