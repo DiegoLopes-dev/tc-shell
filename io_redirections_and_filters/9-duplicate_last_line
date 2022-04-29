@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -i '$p' iacta
+tar -i '$p' iacta
