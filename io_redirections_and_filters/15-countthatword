@@ -1,2 +1,2 @@
 #!/bin/bash
-grep ^[b] /etc/passwd
+grep -c ^[b] /etc/passwd
