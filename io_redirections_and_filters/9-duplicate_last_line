@@ -1,2 +1,2 @@
 #!/bin/bash
-tar -i '$p' iacta
+tail -1f filename
