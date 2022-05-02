@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d' ' -f1 | tr 'a-z' 'A-Z' | head -n 1 | sed-i's/FOR/FOREVERINYOUREYES/g'
+cut -d' ' -f1 | tr 'a-z' 'A-Z' | head -n 1 |  perl-pe's/FOR/FOREVERINYOUREYES/g'
