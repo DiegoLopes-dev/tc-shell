@@ -1,2 +1,2 @@
 #!/bin/bash
-find ~/ -name “*.gif” -print
+find . -maxdepth 0 -name "*.gif"
