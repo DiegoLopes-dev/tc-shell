@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d' ' -f1 | tr 'e' 'l' 'i' 'z' 'a' 'b' 'e' 't' 'h' | tr 'E' 'L' 'I' 'Z' 'A' 'B' 'E' 'T' 'H'
+awk '{print $1}'
