@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n 1 | head -n 10
+lsof -P -i -n | sort -nr | head -n 10
