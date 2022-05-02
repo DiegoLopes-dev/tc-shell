@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d' ' -f1 | tr 'a-z' 'A-Z' | head -n 1 | tr 'FOR'| tr 'FOREVERINYOUREYES'
+cut -d' ' -f1 | tr 'a-z' 'A-Z' | head -n 1
