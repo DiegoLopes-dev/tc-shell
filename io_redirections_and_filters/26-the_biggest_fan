@@ -1,2 +1,0 @@
-#!/bin/bash
-lsof -P -i -n | sort -nr | head -n 10
