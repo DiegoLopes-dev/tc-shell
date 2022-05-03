@@ -1,2 +1,2 @@
 #!/bin/bash
--sL
+head -n 11
