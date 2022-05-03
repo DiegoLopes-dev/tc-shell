@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n +2 | cut -f 1,8 | sort -k 1 | uniq -c | sort -rnk 1 | head -n11 | cut -c 8-30
+tail -n +2 | cut -f 1,8 | sort -k 1 | uniq -c | sort -rnk 1 | head -n11 | cut -c 9-30
