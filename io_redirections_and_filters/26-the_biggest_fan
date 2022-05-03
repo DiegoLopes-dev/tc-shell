@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 11 | cut -f 1,8
+head -n 11 | cut -f 1,8 | sort
